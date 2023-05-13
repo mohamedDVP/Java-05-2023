@@ -14,13 +14,22 @@ public class App
         int c = 1; // int est un nombre entier
         long l = 1L; // long est un nombre entier long
 
-        // virgule
+        // nombre à virgule (nombre flottant)
         float f = 1.0f; // float est un nombre à virgule
         double d = 1.0; // double est un nombre à virgule
         double convertFloat = (double) f; // convertir un float en double
 
+        // caractère
+        char e = 'a'; // char est un caractère
+
+        // booléen
+        boolean bool = true; // boolean est un booléen
+        boolean boolDeux = false; // boolean est un booléen
+
+        int tarteAuCitron = 2;
 
 
-        System.out.println( "Hello World!" );
+        System.out.println(tarteAuCitron);
+
     }
 }
