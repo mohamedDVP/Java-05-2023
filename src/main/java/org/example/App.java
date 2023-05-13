@@ -8,32 +8,25 @@ public class App
 {
     public static void main( String[] args )
     {
-        // entier
-        byte a = 1; // byte est un nombre entier
-        short b = 1; // short est un nombre entier
-        int c = 1; // int est un nombre entier
-        long l = 1L; // long est un nombre entier long
-
-        // nombre à virgule (nombre flottant)
-        float f = 1.0f; // float est un nombre à virgule
-        double d = 1.0; // double est un nombre à virgule
-        double convertFloat = (double) f; // convertir un float en double
-
-        // caractère
-        char e = 'a'; // char est un caractère
-
-        // booléen
-        boolean bool = true; // boolean est un booléen
-        boolean boolDeux = false; // boolean est un booléen
-
-        sumTwoValues(1,2);
-
+        int toto = 1;
+        int titi = 2;
+        showMaxValue(toto, titi);
     }
 
     // somme de deux valeurs
     public static void sumTwoValues(int valueOne, int valueTwo) {
-        // +, -, /, %, *
+        // +, -, /, %, * -> opérateur arithmétique
         int sum = valueOne + valueTwo;
         System.out.println(sum);
+    }
+
+    public static void showMaxValue(int valueOne, int valueTwo) {
+        // >, <, <=, >=, == ->opérateur de comparaison
+        if (valueOne > valueTwo) {
+            System.out.println(valueOne);
+        }
+        else {
+            System.out.println(valueTwo);
+        }
     }
 }
