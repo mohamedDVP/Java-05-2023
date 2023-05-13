@@ -10,6 +10,7 @@ public class App
     {
         int toto = 1;
         int titi = 2;
+        sumTwoValues(toto, titi);
         showMaxValue(toto, titi);
     }
 
