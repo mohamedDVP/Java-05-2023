@@ -26,10 +26,14 @@ public class App
         boolean bool = true; // boolean est un booléen
         boolean boolDeux = false; // boolean est un booléen
 
-        int tarteAuCitron = 2;
+        sumTwoValues(1,2);
 
+    }
 
-        System.out.println(tarteAuCitron);
-
+    // somme de deux valeurs
+    public static void sumTwoValues(int valueOne, int valueTwo) {
+        // +, -, /, %, *
+        int sum = valueOne + valueTwo;
+        System.out.println(sum);
     }
 }
